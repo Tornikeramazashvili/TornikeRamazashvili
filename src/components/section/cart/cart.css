@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+.cart-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 0px 119px 0px;
+}
+
+.cart-box-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  cursor: default;
+}
+
+.cart-box-added-products-title {
+  margin-top: 80px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  cursor: default;
+}
+
+.cart-box-added-products-category {
+  margin: 16px 0px 12px 0px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  cursor: default;
+}
+
+.cart-box-added-products-price {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: default;
+}
+
+.cart-box-added-products-sizes {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+.cart-box-added-products-size-box-white {
+  padding: 12px 28px;
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+}
+
+.cart-box-added-products-size-box-white:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s all;
+}
+
+.cart-box-added-products-size-box-black:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s all;
+}
+
+.cart-box-added-products-size-box-black {
+  padding: 12px 28px;
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.cart-box-added-products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-box-added-products-second-part {
+  margin-top: 70px;
+  display: flex;
+}
+.cart-image {
+  padding-left: 20px;
+  width: 200px;
+}
+
+.cart-box-added-products-add-remove {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-box-added-plus-button {
+  font-size: 30px;
+  border: 1px solid #1d1f22;
+  background-color: white;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.cart-box-added-plus-button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s all;
+}
+
+.cart-box-added-quantity {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  cursor: default;
+}
+
+.cart-box-added-minus-button {
+  font-size: 30px;
+  border: 1px solid #1d1f22;
+  background-color: white;
+  padding: 6px 19px;
+  cursor: pointer;
+}
+
+.cart-box-added-minus-button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s all;
+}

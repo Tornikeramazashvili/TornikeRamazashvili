@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap");
+
+.header-navigation {
+  align-items: center;
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 32px;
+  margin-top: 30px;
+}
+
+.nav-li a {
+  color: #1d1f22;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.nav-li a {
+  display: inline-block;
+  position: relative;
+}
