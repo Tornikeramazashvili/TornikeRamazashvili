@@ -1,1 +1,1 @@
-Hello, my name is Tornike Ramazashvili, Junior React Developer, with a desire to learn and grow in a collaborative team environment. Comfortable in translating designs into high-quality code and writing application interface code via JavaScript and React workflows. Preferred tech stack React Native 🚀
+
